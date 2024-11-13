@@ -17,6 +17,7 @@ if st.button("Cassify"):
         
         if pred[0]==0:
             st.success("This Email is not Spam")
+            
         else:
             st.error("This is Spam Email")
 
